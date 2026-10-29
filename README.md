@@ -8,6 +8,8 @@ Incubate requests from anywhere in Burp Suite with a simple right-click action, 
 
 Whether you're testing session expiration, rate limiting, token validity, or application state changes, Request Incubator makes long-running, repetitive HTTP testing easy.
 
+![Application screenshot](preview.png)
+
 ## ✨ Features
 
 - **Incubate Requests Anywhere** — Right-click any request in Burp Suite and select `Extensions → Request Incubator → Incubate Request`.
