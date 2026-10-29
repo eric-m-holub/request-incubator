@@ -49,7 +49,7 @@ Choose the condition that determines when an incubated request should stop repea
 | **3XX** | Stop when the response has a 3XX redirection status code. |
 | **4XX** | Stop when the response has a 4XX client error status code. |
 | **5XX** | Stop when the response has a 5XX server error status code. |
-| **Not 200** | Stop when the response status code is anything other than `200 OK`. |
+| **Not 2XX** | Stop when the response status code is anything other than 2XX. |
 | **Response Text** | Stop when the response contains user-defined text. |
 
 These conditions let you monitor both HTTP-level failures and application-specific changes that may only be visible in the response content.
