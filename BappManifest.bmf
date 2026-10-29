@@ -1,0 +1,12 @@
+Uuid: aaa
+ExtensionType: 1
+Name: Request Incubator
+RepoName: request-incubator
+ScreenVersion: 1.0
+SerialVersion: 2
+MinPlatformVersion: 0
+ProOnly: False
+Author: Eric Holub
+ShortDescription: Repeatedly make HTTP requests until a failure condition is met
+EntryPoint: target/request-incubator-1.0.jar
+BuildCommand: mvn clean package
